@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo officiis, consequatur, repudiandae, aut sit impedit nihil odio quae quaerat autem optio ipsum ratione tempore. Excepturi accusantium dignissimos veniam ipsum doloribus.</h1>
+    <div class="container">
+        <nav>
+            <div class="logo"> <img src="img/logo-ramadan.png" alt=""></div>
+            <ul class="navitems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="links">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrraper">
+            <div class="cols cols0">
+                <span class="topline">HELLO WORLD</span>
+                <h1> HAPPY<span class="multitext">  RAMADAN</span></h1>
+                <p>Ramadan is the ninth of the islamic calender and is observed by muslims worldwide as a month of
+                    fasting prayer reflection and community During this month Muslims obstain from food drink and
+                    other physical needs from dawn until sunset and focus on spiritual growth and connection with GOD.</p>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="img/ramadan.png" id="splash">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multitext",{
+            strings : ["Ramadan"],
+            loop : true,
+            typeSpeed : 80,
+            backSpeed : 100,
+            backDelay : 1500
+        })
+    </script>
 </body>
 </html>
